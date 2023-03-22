@@ -185,3 +185,20 @@ main {
   height: 209px;
 }
 /* END HERO */
+
+/* COMMUNITIES & MESSAGES */
+.communities-messages {
+  width: 160px;
+  height: 356px;
+  justify-content: space-between;
+  margin-top: calc(var(--margin) * 6);
+}
+.communities-messages .communities img,
+.communities-messages .messages img {
+  width: 30px;
+}
+.communities-messages .communities .texts p,
+.communities-messages .messages .texts p {
+  font-size: calc(var(--fontSize) * 0.95);
+}
+/* END COMMUNITIES & MESSAGES */
