@@ -158,3 +158,30 @@ header button:hover {
   box-shadow: 0px 0px 4px 3px var(--lightPinkOpacity);
 }
 /* END HEADER */
+
+main {
+  padding-top: calc(var(--padding) * 4.5);
+}
+
+/* HERO */
+.hero-section,
+.hero-section .hero-call-to-action,
+.hero-section .hero-call-to-action .texts {
+  justify-content: space-between;
+}
+.hero-section {
+  width: 296px;
+  height: 581px;
+}
+.hero-section .hero-call-to-action {
+  height: 263px;
+}
+.hero-section .hero-call-to-action .texts {
+  height: 170px;
+  text-align: center;
+}
+.hero-section img {
+  width: 296px;
+  height: 209px;
+}
+/* END HERO */
