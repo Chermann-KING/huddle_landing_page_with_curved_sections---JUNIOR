@@ -267,3 +267,17 @@ main {
   padding: calc(var(--padding) * 4) 0;
 }
 /* END YOUR USERS */
+
+/* BOTTOM CALL TO ACTION */
+.bottom-call-to-action {
+  width: 344px;
+  height: 152px;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: calc(var(--margin) * 3);
+  margin-bottom: calc(var(--margin) * 8);
+}
+.bottom-call-to-action h2 {
+  font-size: calc(var(--fontSize) * 1.5);
+}
+/* END BOTTOM CALL TO ACTION */
