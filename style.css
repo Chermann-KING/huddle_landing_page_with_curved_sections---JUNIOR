@@ -372,3 +372,19 @@ footer .widget-footer .infos-footer .mail {
 footer .widget-footer .infos-footer .mail {
   margin-top: var(--margin);
 }
+
+footer .social-network {
+  flex-direction: row;
+  font-size: calc(var(--fontSize) * 1.5);
+  width: 320px;
+  margin-top: var(--margin);
+}
+footer .social-network a > i {
+  cursor: pointer;
+  color: #f6fbff;
+  margin-right: var(--margin);
+  transition: color 0.2s ease-in-out;
+}
+footer .social-network a > i:hover {
+  color: hsl(192, 100%, 49%);
+}
