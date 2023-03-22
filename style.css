@@ -351,3 +351,24 @@ footer .widget-footer .newsletter form > span {
 .invalid-mail {
   border: 1px solid var(--lightRed);
 } /*To be reviewed*/
+footer .widget-footer .infos-footer {
+  width: 320px;
+  height: 255px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .widget-footer .infos-footer .logo > img {
+  filter: brightness(1000%) saturate(0) contrast(100);
+  width: 200px;
+}
+footer .widget-footer .infos-footer > p {
+  font-size: calc(var(--fontSize) * 0.88);
+  margin-top: calc(var(--margin) * -3);
+}
+footer .widget-footer .infos-footer .phone,
+footer .widget-footer .infos-footer .mail {
+  gap: var(--margin);
+}
+footer .widget-footer .infos-footer .mail {
+  margin-top: var(--margin);
+}
