@@ -292,3 +292,10 @@ footer {
   color: var(--veryPaleBlue);
   margin-top: calc(var(--margin) * -0.25); /*To be reviewed*/
 }
+footer .widget-footer {
+  height: 680px;
+  width: 100vw;
+  justify-content: space-between;
+  padding-top: calc(var(--padding) * 3);
+  padding-bottom: var(--padding);
+}
