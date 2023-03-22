@@ -20,7 +20,7 @@ Thanks for taking a look at my solution to this front-end coding challenge.
 
 ### Links
 
-- Solution URL: REPO_URL
+- Solution URL: https://github.com/Chermann-KING/huddle_landing_page_with_curved_sections---JUNIOR
 - Live Site URL: LIVE_URL
 
 ### Built with

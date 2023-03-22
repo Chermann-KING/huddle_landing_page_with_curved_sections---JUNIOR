@@ -8,56 +8,190 @@
 
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  Try it free
+  <header>
 
-  Build The Community Your Fans Will Love
+    <div class="logo">
+      <img src="./images/logo.svg" alt="logo">
+    </div>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does
-  your audience. Create connections with your users as you engage in genuine discussion.
+    <button>Try it free</button>
 
-  Get Started For Free
+  </header>
 
-  1.4k+
-  Communities Formed
+  <main>
+    <section class="hero-section">
 
-  2.7m+
-  Messages Sent
+      <div class="hero-call-to-action">
+        <div class="texts">
+          <h1>Build The Community Your Fans Will Love</h1>
 
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community.
-  Think of the insightful conversations you miss out on with a feedback form.
+          <p>Huddle re-imagines the way we build communities. You have a voice, but so does
+            your audience. Create connections with your users as you engage in genuine discussion.</p>
+        </div>
 
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have
-  just-in-time loading for a more natural flow.
+        <button>Get Started For Free</button>
+      </div>
 
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means,
-  once signed in to your app, your users can start chatting immediately.
+      <img src="./images/screen-mockups.svg" aria-hidden="true" alt="screen-mockups">
+    </section>
 
-  Ready To Build Your Community?
-  Get Started For Free
+    <section class="communities-messages">
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
-  vestibulum a, ultrices quis sem.
+      <div class="communities">
 
-  Phone: +1-543-123-4567
-  example@huddle.com
+        <img src="./images/icon-communities.svg" aria-hidden="true" alt="icon-communities">
 
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-  send you spam or pass on your email address
+        <div class="texts">
+          <h2>1.4k+</h2>
 
-  Subscribe
+          <p>Communities Formed</p>
+        </div>
 
+      </div>
+
+      <div class="messages">
+
+        <img src="./images/icon-messages.svg" aria-hidden="true" alt="icon-messages">
+
+        <div class="texts">
+          <h2>2.7m+</h2>
+
+          <p>Messages Sent</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <div class="curve top-one">
+    </div>
+    <section class="grow-together">
+
+      <img src="./images/illustration-grow-together.svg" aria-hidden="true" alt="illustration-grow-together">
+
+      <div class="texts">
+        <h3>Grow Together</h3>
+
+        <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+          Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
+
+    </section>
+    <div class="curve top-two">
+    </div>
+
+    <section class="flowing-conversations">
+
+      <img src="./images/illustration-flowing-conversation.svg" aria-hidden="true"
+        alt="illustration-flowing-conversation">
+
+      <div class="texts">
+        <h3>Flowing Conversations</h3>
+
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+          just-in-time loading for a more natural flow.</p>
+      </div>
+
+    </section>
+
+    <div class="curve bottom-one">
+    </div>
+    <section class="your-users">
+
+      <img src="./images/illustration-your-users.svg" aria-hidden="true" alt="illustration-your-users">
+
+      <div class="texts">
+        <h3>Your Users</h3>
+
+        <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+          once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+
+    </section>
+    <div class="curve bottom-two">
+    </div>
+
+    <section class="bottom-call-to-action">
+
+      <h2>Ready To Build Your Community?</h2>
+
+      <button>Get Started For Free</button>
+
+    </section>
+  </main>
+
+  <div class="curve footer-top">
+  </div>
   <footer>
-    <p>
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/Chermann-KING">Chermann KING</a>.
-    </p>
+    <div class="widget-footer">
+
+      <div class="newsletter">
+
+        <div class="texts">
+          <h4>Newsletter</h4>
+          <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
+            send you spam or pass on your email address</p>
+        </div>
+
+        <form action="">
+
+          <div class="action">
+            <input type="mail" id="email" required>
+            <button>Subscribe</button>
+          </div>
+
+          <span id="email-error"></span>
+
+        </form>
+
+      </div>
+
+      <div class="infos-footer">
+
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo">
+        </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+          vestibulum a, ultrices quis sem.</p>
+
+        <div class="contact">
+          <div class="phone">
+            <img src="./images/icon-phone.svg" aria-hidden="true" alt="icon-phone">
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+
+          <div class="mail">
+            <img src="./images/icon-email.svg" aria-hidden="true" alt="icon-email">
+            <p>example@huddle.com</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="social-network">
+      <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-square-facebook"></i></a>
+      <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><i
+          class="fa-brands fa-square-twitter"></i></a>
+    </div>
+
+    <div class="copyright">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/Chermann-KING">Chermann KING</a>.
+      </p>
+    </div>
   </footer>
 </body>
 
