@@ -400,3 +400,63 @@ footer .copyright a {
 footer .copyright a:hover {
   color: var(--pink);
 }
+
+/* Tablet */
+@media (min-width: 768px) {
+  header {
+    padding: 0 calc(var(--padding) * 4);
+    margin-top: calc(var(--margin) * 2.5);
+  }
+  main {
+    padding-top: calc(var(--padding) * 6.5);
+  }
+  .hero-call-to-action {
+    justify-content: space-around;
+  }
+  .grow-together,
+  .your-users,
+  .flowing-conversations {
+    padding: calc(var(--padding) * 2) calc(var(--padding) * 4);
+  }
+  .grow-together,
+  .your-users {
+    flex-direction: row-reverse;
+  }
+  .flowing-conversations {
+    flex-direction: row;
+  }
+  .grow-together,
+  .flowing-conversations,
+  .your-users {
+    justify-content: space-between;
+  }
+  .bottom-call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .widget-footer {
+    height: 400px;
+    flex-direction: row-reverse;
+    padding: 0 calc(var(--padding) * 4);
+  }
+  footer .widget-footer .newsletter {
+    padding-top: calc(var(--padding) * 2.4);
+  }
+  footer .widget-footer .newsletter .texts h4 {
+    align-self: flex-end;
+  }
+  footer .widget-footer .newsletter .texts p {
+    width: 320px;
+    padding-right: 0;
+    text-align: right;
+  }
+  footer .social-network {
+    width: 100%;
+    padding: 0 calc(var(--padding) * 4);
+    margin-top: calc(var(--margin) * -2);
+  }
+  footer .copyright {
+    padding: calc(var(--padding) * 4) calc(var(--padding) * 5);
+  }
+}
