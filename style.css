@@ -202,3 +202,44 @@ main {
   font-size: calc(var(--fontSize) * 0.95);
 }
 /* END COMMUNITIES & MESSAGES */
+
+.curve {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 80px;
+  width: 100%;
+}
+.grow-together img,
+.flowing-conversations img,
+.your-users img {
+  width: 280px;
+}
+.grow-together .texts,
+.flowing-conversations .texts,
+.your-users .texts {
+  text-align: center;
+}
+.grow-together .texts p,
+.flowing-conversations .texts p,
+.your-users .texts p {
+  font-size: calc(var(--fontSize) * 0.875);
+  width: 320px;
+}
+/* GROW TOGETHER */
+.curve.top-one {
+  margin-top: calc(var(--margin) * 6);
+  background-image: url("./images/bg-section-top-mobile-1.svg");
+  background-position: center bottom;
+}
+.curve.top-two {
+  background-image: url("./images/bg-section-top-mobile-2.svg");
+  transform: rotate(180deg);
+  height: 40px;
+}
+.grow-together {
+  width: 100vw;
+  gap: calc(var(--margin) * 6);
+  background-color: var(--veryPaleBlue);
+  padding: calc(var(--padding) * 4) 0;
+}
+/* END GROW TOGETHER */
