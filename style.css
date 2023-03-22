@@ -243,3 +243,11 @@ main {
   padding: calc(var(--padding) * 4) 0;
 }
 /* END GROW TOGETHER */
+
+/* FLOWING CONVERSATION */
+.flowing-conversations {
+  width: 100vw;
+  gap: calc(var(--margin) * 6);
+  padding: calc(var(--padding) * 4) 0;
+}
+/* END FLOWING CONVERSATION */
