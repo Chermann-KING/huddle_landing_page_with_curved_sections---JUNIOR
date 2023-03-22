@@ -281,3 +281,14 @@ main {
   font-size: calc(var(--fontSize) * 1.5);
 }
 /* END BOTTOM CALL TO ACTION */
+
+/* FOOTER */
+.curve.footer-top {
+  background-image: url("./images/bg-footer-top-mobile.svg");
+}
+footer {
+  justify-content: center;
+  background-color: var(--veryDarkCyan);
+  color: var(--veryPaleBlue);
+  margin-top: calc(var(--margin) * -0.25); /*To be reviewed*/
+}
