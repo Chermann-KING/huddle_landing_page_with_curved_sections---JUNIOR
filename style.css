@@ -388,3 +388,15 @@ footer .social-network a > i {
 footer .social-network a > i:hover {
   color: hsl(192, 100%, 49%);
 }
+footer .copyright {
+  color: var(--lightPink);
+  text-align: center;
+  padding: calc(var(--padding) * 2) calc(var(--padding) * 5);
+}
+footer .copyright a {
+  color: var(--lightRed);
+  transition: color 0.2s ease-in-out;
+}
+footer .copyright a:hover {
+  color: var(--pink);
+}
