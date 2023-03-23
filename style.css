@@ -441,6 +441,10 @@ footer .copyright a:hover {
     flex-direction: row-reverse;
     padding: 0 calc(var(--padding) * 4);
   }
+  footer .widget-footer .infos-footer .phone,
+  footer .widget-footer .infos-footer .mail {
+    gap: calc(var(--margin) * 1.2);
+  }
   footer .widget-footer .newsletter {
     padding-top: calc(var(--padding) * 2.4);
   }
